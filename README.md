@@ -1,4 +1,4 @@
-# S.O.Z.
+# S.O.Z. 
 S.O.S. (Sistema Operacional do Zero)
 ## Como Executar o S.O.Z.
 
