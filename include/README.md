@@ -1,4 +1,4 @@
-#  Arquivos de Cabeçalho (Headers)
+#  Arquivos de Cabeçalho (Headers) 
 
 Esta pasta reúne as definições de interfaces, protótipos de funções e constantes do **S.O.Z.**. Os arquivos `.h` garantem a modularidade do kernel e a comunicação entre os drivers e o sistema.
 
