@@ -1,4 +1,4 @@
-# Código-Fonte (src)  
+# Código-Fonte (src)   
 
 Esta pasta contém o código-fonte principal do **S.O.Z.** em **C** e **Assembly x86**:
 
