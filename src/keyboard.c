@@ -20,12 +20,12 @@ unsigned char inb(unsigned short port) {
     return result;
 }
 
-/* Verifica se hÃ¡ dados na porta do teclado */
+/* Verifica se há dados na porta do teclado */
 int keyboard_hit() {
     return inb(KEYBOARD_STATUS_PORT) & 1;
 }
 
-/* LÃª uma tecla (bloqueia atÃ© obter um caractere ASCII vÃ¡lido) */
+/* Lê uma tecla (bloqueia até obter um caractere ASCII válido) */
 char keyboard_getchar() {
     char key = 0;
 
@@ -47,6 +47,7 @@ char keyboard_getchar() {
     return key;
 }
 
+/* Versão não-bloqueante */
 char keyboard_read() {
     if (!keyboard_hit())
         return 0;
