@@ -1,4 +1,4 @@
-# Inicialização do Sistema (boot) 
+# Inicialização do Sistema (boot)  
 
 Esta pasta contém o código em **Assembly x86** responsável pela sequência de boot e pela transição do hardware para a execução do kernel.
 
